@@ -36,24 +36,29 @@ This portfolio contains various projects that I've worked on. Each project has i
 
 #### Home Page
 ![Algo Gauge Home Page](AlgoGauge/AlgoGauge-Screenshots/AlgoHomePg.gif)
+
 *The Home Page introduces users to the platform and guides them towards algorithm selection and testing.*
 
 #### Metrics Page
 ![Algo Gauge Metrics Page](AlgoGauge/AlgoGauge-Screenshots/AlgoMetricsPg.gif)
+
 *The Metrics Page displays user performance metrics and results.*
 
 #### Queue System
 ![Algo Gauge Queue System](AlgoGauge/AlgoGauge-Screenshots/AlgoQueue.gif)
+
 *The Queue Modal shows the user's position in the queue and updates in real-time.*
 
 ### Code Snippets
 
 #### Queue Management
 ![Queue Management Code](AlgoGauge/AlgoGauge-Screenshots/fullqueue.png)
+
 *This code snippet demonstrates the queue management system on the server side.*
 
 #### User Position Tracking
 ![User Position Tracking Code](AlgoGauge/AlgoGauge-Screenshots/QueuePosition.png)
+
 *This snippet shows how the user's position in the queue is tracked and updated.*
 
 
