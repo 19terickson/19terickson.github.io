@@ -43,22 +43,24 @@ This portfolio contains various projects that I've worked on. Each project has i
 #### Queue System
 ![Algo Gauge Queue System](AlgoGauge/AlgoGauge-Screenshots/AlgoQueue.gif)
 
-*The Queue Modal shows the user's position in the queue and updates in real-time.*
+*In my contribution to the Algo Gauge project, I focused extensively on developing the Queue Modal. This feature is pivotal to the user experience, as it dynamically shows each user's position in the queue, updating in real-time. I implemented the logic to ensure that once a user's algorithm task is processed, their entry is promptly removed from the queue, maintaining the system's efficiency and user engagement.*
 
-### Code Snippets I Worked On
+### Code Snippets I Developed
 
 #### Queue Management
 ![Queue Management Code](AlgoGauge/AlgoGauge-Screenshots/fullqueue.png)
 
-*This code snippet demonstrates the queue management system on the server side.*
+*Pictured here is a key segment of the queue management system, which I was responsible for on the server side. This code orchestrates the queuing logic, including the addition of tasks to the queue and their removal upon completion. It's designed to handle high volumes of user requests with reliability and speed.*
 
 #### User Position Tracking
 ![User Position Tracking Code](AlgoGauge/AlgoGauge-Screenshots/QueuePosition.png)
 
-*This snippet shows how the user's position in the queue is tracked and updated.*
+*This code snippet highlights the real-time user position tracking feature that I engineered. It ensures that users are kept informed of their current position in the queue. The functionality includes not just tracking but also updating user status and cleaning up the queue by deleting entries post-execution to optimize system performance.*
 
 
-*More details and screenshots of this project can be found under the 'AlgoGauge' folder within this repository.*
+
+
+****More details and screenshots of this project can be found under the 'AlgoGauge' folder within this repository.****
 
 ### Utah Parks Explorer
 **Description:** Utah Parks Explorer is a website that offers extensive information about Utah's national parks: Zion, Bryce Canyon, Capitol Reef, Arches, and Canyonlands. This website will not only detail the unique features of each park but also provide practical information such as maps, trails, accommodations, and visitor guidelines.
