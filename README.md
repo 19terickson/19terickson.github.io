@@ -28,10 +28,6 @@ This portfolio contains various projects that I've worked on. Each project has i
 
 **Link to Project Folder:** [AlgoGaugeCapstone](https://github.com/19terickson/AlgoGaugeCapstone.git)
 
-## AlgoGauge Description
-
-[Your detailed project description here...]
-
 ### Interface Previews
 
 #### Home Page
@@ -49,7 +45,7 @@ This portfolio contains various projects that I've worked on. Each project has i
 
 *The Queue Modal shows the user's position in the queue and updates in real-time.*
 
-### Code Snippets
+### Code Snippets I Worked On
 
 #### Queue Management
 ![Queue Management Code](AlgoGauge/AlgoGauge-Screenshots/fullqueue.png)
