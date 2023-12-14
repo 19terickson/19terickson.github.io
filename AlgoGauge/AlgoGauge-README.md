@@ -1,42 +1,50 @@
-Abstract:
+# Algo Gauge - Abstract
+
+**Abstract:**
 Algo Gauge is an innovative web application designed to allow users to interactively test and measure the efficiency of various sorting algorithms. It incorporates a real-time queuing system, providing a platform where users can submit algorithm tasks and receive immediate feedback upon completion.
 
+## Introduction
+Algo Gauge serves as an educational and practical tool for both students and professionals, aiming to explore algorithmic performance in a controlled environment. This application is user-friendly and is structured to handle concurrent processing efficiently. It consists of a client-server architecture with the client side built using React.js and the server side powered by Node.js and Express.js framework.
 
-The increasing complexity of data processing necessitates the understanding and application of efficient algorithms. Algo Gauge steps in as an educational and practical tool for both students and professionals to explore algorithmic performance in a controlled environment. With a user-friendly interface and a backend structured to handle concurrent processing, the platform ensures a seamless experience.
-Algo Gauge consists of a client-server architecture where the client side is built using React.js, facilitating dynamic content rendering, and the server side is powered by Node.js with Express.js framework, managing API requests and database interactions.
+## Client-Side Functionality
 
-Client-Side Functionality:
+### Home Page
+- **Navigation:** Includes a Navbar.js and Footer.js for sleek navigation.
+- **Purpose Introduction:** Guides users towards algorithm selection and testing.
 
-Home Page:
-The landing page serves as the entry point to the platform, displaying a sleek navigation bar (Navbar.js) and a footer (Footer.js). It introduces users to the platform's purpose and guides them towards algorithm selection and testing.
+### Testing Page (testing.js)
+- **Core Functionality:** Dropdown menu for algorithm selection (SortingAlgorithm.js, SortingAlgorithm2.js, DataStructure.js).
+- **Testing Process:** 'Run' button to initiate testing and queue user tasks.
 
-Testing Page (testing.js):
-This is where users interact with the core functionality of the platform. The page offers a dropdown menu to select different algorithms (managed by SortingAlgorithm.js, SortingAlgorithm2.js, and DataStructure.js) and initiate testing. A 'Run' button triggers the testing process, queuing the user's task for execution.
+### Queue Modal
+- **Real-Time Feedback:** Shows users their position in the queue during high-traffic periods.
 
-Queue Modal:
-Upon initiating a test run, users are shown their position in the queue. This real-time feedback is crucial, especially during high-traffic periods, to manage expectations. The queuing system is robust, automatically updating and cleaning up entries to maintain efficiency.
+### Results Modal (metrics.js)
+- **Performance Metrics:** Displays execution time and algorithm efficiency post-task processing.
 
-Results Modal (metrics.js):
-After a task is processed, users are directed to view their test results in a modal window. It displays performance metrics such as execution time and algorithm efficiency, offering valuable insights into algorithm behavior under various conditions.
+## Server-Side Functionality
 
-Server-Side Functionality:
+### Queue Management
+- **Database Integration:** MongoDB for queue persistence with QueueTable model.
+- **Queue Endpoint:** /fullQueue for fetching the current queue state.
 
-Queue Management:
-At the heart of the server-side application is the queuing logic, which utilizes MongoDB for persistence. The QueueTable model keeps track of each user's task, adding and removing entries as they are processed. An endpoint /fullQueue is dedicated to fetching the current state of the queue.
+### User Position Tracking
+- **Endpoints:** /getuserposition and /checkPosition for real-time user position tracking.
 
-User Position Tracking:
-The /getuserposition and /checkPosition endpoints enable real-time tracking of a user's position within the queue. This information is critical for maintaining transparency and setting accurate user expectations.
+### Scheduled Queue Clean-up
+- **Efficiency Maintenance:** Periodic cleaning of the oldest queue entry.
 
-Scheduled Queue Clean-up:
-To ensure the queue remains efficient, a scheduled task periodically cleans up the oldest entry, keeping the system lean and responsive.
+## Functionality Across Pages
 
-Functionality Across Pages:
+### Real-Time Updates
+- **HTTP Requests:** Utilizes Axios for polling server updates about queued tasks and results.
 
-Real-Time Updates:
-Using Axios for HTTP requests, the client-side application regularly polls the server for updates, ensuring that users receive the most current information regarding their queued tasks and results.
+### Responsive Design
+- **UI/UX:** Accessibility across devices, managed by main.scss styles.
 
-Responsive Design:
-The UI/UX design, managed by styles defined in main.scss, ensures that Algo Gauge is accessible and functional across various devices and screen sizes.
+### Educational Aspect
+- **Learning Platform:** Provides detailed information about each algorithm, enhancing the user experience.
 
-Educational Aspect:
-Each algorithm selection provides an option for users to learn more about it. This educational feature enriches the user experience, making Algo Gauge a learning platform as well as a testing tool.
+---
+
+Algo Gauge integrates practicality with education, offering a unique platform for understanding and applying efficient algorithms in data processing.
