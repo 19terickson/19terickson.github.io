@@ -43,7 +43,7 @@ This portfolio contains various projects that I've worked on. Each project has i
 #### Queue System
 ![Algo Gauge Queue System](AlgoGauge/AlgoGauge-Screenshots/AlgoQueue.gif)
 
-*In my contribution to the Algo Gauge project, I focused extensively on developing the Queue Modal. This feature is pivotal to the user experience, as it dynamically shows each user's position in the queue, updating in real-time. I implemented the logic to ensure that once a user's algorithm task is processed, their entry is promptly removed from the queue, maintaining the system's efficiency and user engagement.*
+*In my contribution to the Algo Gauge project, I focused extensively on developing the Queue Modal (shown above). This feature is pivotal to the user experience, as it dynamically shows each user's position in the queue, updating in real-time. I implemented the logic to ensure that once a user's algorithm task is processed, their entry is promptly removed from the queue, maintaining the system's efficiency and user engagement.*
 
 ### Code Snippets I Developed
 
